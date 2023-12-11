@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV:ENG</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap">
+</head>
+<body>
+    <div class="navbar">
+        <div class="menu-toggle" onclick="toggleMenu()">🎵</div>
+        <div class="menu-content">
+            <iframe src="https://open.spotify.com/embed/album/19H2zEXmFVxSrSrehXn8W0" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+    </div>
+
+    <div class="loader-wrapper" id="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <div id="nav">
+        <img id="portrait" src="123.jpg" alt="Portrait">
+        <h1>Nadutik Dmytro</h1>
+        <div class="youtube">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target='_blank'><img src="youtube-logo.png" alt="YouTube Logo"></a>
+        </div>
+        <div class="menu">
+            <a href="#bio" class="tab"><b>About me</b></a>
+            <a href="#osv" class="tab"><b>Education</b></a>
+			<a href="#ana" class="tab"><b>Website analys</b></a>
+            <button class="tab" id="instituteButton" onclick="goToInstituteSite()"><i>Institute's website</i></button>
+            <button class="tab" onclick="redirectToOtherPage()"><i>Translate:</i> <b>ENG</b></button>
+        </div>
+        <div id="footer" class="center-men">
+            <p>Cadet ISZZI</p>
+            <img src="iszzi2.png" alt="Icon">
+        </div>
+        <div id="clock" class="clock"></div>
+    </div>
+
+    <div id="content">
+        <div id="bio">
+            <h2>Basic information</h2>
+            <p><b>Birthday:</b> 11.11.2004</p>
+	<p><b>Location:</b> Kyiv, Ukraine</p>
+	<p><b>Email:</b> <a href="mailto:gog240@gmail.com">gog240@gmail.com</p></a>
+	<p><b>Phone number:</b> +380594567845</p>
+	<p><b>Visualisation of knowledge in certain industries:</b></p>
+
+    <div class="progress-container">
+        <label for="progress1"><b>Knowledge of the English language:</b> B1</label>
+        <progress id="progress1" value="40" max="100"></progress>
+    </div>
+    <div class="progress-container">
+        <label for="progress2"><b>Knowledge of HTML:</b> 60%</label>
+        <progress id="progress2" value="60" max="100"></progress>
+    </div>
+    <div class="progress-container">
+        <label for="progress3"><b>Ability to solve tasks:</b> 90%</label>
+        <progress id="progress3" value="90" max="100"></progress>
+    </div>
+	<div class="progress-container">
+        <label for="progress4"><b>Modesty:</b> 90%</label>
+        <progress id="progress4" value="95" max="100"></progress>
+    </div>
+        </div>
+
+        <div id="osv">
+            <h2>Education</h2>
+              <p>I graduated from the Ukrainian School in 2022. My academic path includes the study of key subjects such as programming, which provided me with in-depth knowledge in this field. During my studies, I actively participated in various competitions, which allowed me to expand my knowledge and gain practical experience. My eagerness to learn has manifested itself in a professional approach to the tasks I have been assigned. </p>
+			<img src="https://www.lutskrada.gov.ua/static/content/thumbs/700-467/u/j6/qfmdxi-c7hc4ntcqg4cnv7ct7ouwno4bcz5qj6u.JPG" width="300" height="200" class="center-men">
+			<p>Thanks to my educational background and practical experience, I have developed creative thinking skills, which are essential for successful performance in my chosen field. My education is a solid foundation for my professional career, and I am always ready to improve my knowledge and skills to achieve high results. This educational confirmation underlines my commitment to self-improvement and rapid professional maturity.</p>
+			
+        </div>
+
+        <div id="ana">
+            <h2>Website analys</h2>
+             <p2><b>HTML (HyperText Markup Language):</b></p>
+			<p2>Follow the link by clicking on the logo<b> &#10003 </b></p>
+			<p2>Design of the Spotify menu<b> &#10003 </b></p>
+			<p2>Page translation<b> &#10003 </b></p>
+			<p2>Connecting third-party fonts<b> &#10003 </b></p>
+			<p2>Setting up positioning on the page<b> &#10003 </b></p>
+			<p><b>CSS (Cascading Style Sheets):</b></p>
+			<p2>Customise the look of the page<b> &#10003 </b></p>
+			<p2>Attaching a menu with information and interactions with it<b> &#10003 </b></p>
+			<p2>Clock<b> &#10003 </b></p>
+			<p2>Animation of page loading<b> &#10003 </b></p>
+			<p2>Spotify drop-down menu<b> &#10003 </b></p>
+			<p><b>JavaScript:</b></p>
+			<p2>Progress sliders<b> &#10003 </b></p>
+			<p2>Watch update<b> &#10003 </b></p>
+			<p2>Correct operation of the site loading animation<b> &#10003 </b></p>
+			<p2>Link to the Institute's website<b> &#10003 </b></p>
+			<p2>Debugging the correct operation of the menu<b> &#10003 </b></p>
+        </div>
+        </div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>

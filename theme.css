@@ -1,0 +1,26 @@
+.light-theme body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.light-theme #nav {
+    background-color: #333;
+}
+
+.light-theme #content {
+    background-color: #ffffff;
+}
+
+/* Dark Theme */
+.dark-theme body {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.dark-theme #nav {
+    background-color: #222;
+}
+
+.dark-theme #content {
+    background-color: #333;
+}
